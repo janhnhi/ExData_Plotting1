@@ -39,7 +39,7 @@ with(data, points(DateTime,Sub_metering_3,
                   type="l", col="blue"))
 legend("topright",
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
-       col=c("black","red","blue"), lwd=2)
+       col=c("black","red","blue"), lwd=2, bty="n")
 ## Bottom Right Plot
 plot(data$DateTime,data$Global_reactive_power,
      xlab="datetime", ylab="Global_reactive_power",
